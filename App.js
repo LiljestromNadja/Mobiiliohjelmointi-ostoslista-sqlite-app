@@ -75,7 +75,7 @@ export default function App() {
       <TextInput placeholder='Product' style={{textAlign:'center', marginTop: 30, fontSize: 18, width: 200, borderColor: 'gray', borderWidth: 1}}
         onChangeText={(product) => setProduct(product)}
         value={product}/>  
-      <TextInput placeholder='Amount' style={{textAlign:'center', marginTop: 5, marginBottom: 5,  fontSize:18, width: 200, borderColor: 'gray', borderWidth: 1}}
+      <TextInput placeholder='Amount, notes' style={{textAlign:'center', marginTop: 5, marginBottom: 5,  fontSize:18, width: 200, borderColor: 'gray', borderWidth: 1}}
         onChangeText={(amount) => setAmount(amount)}
         value={amount}/>      
       <Button onPress={saveItem} title="Add to shopping list" /> 
